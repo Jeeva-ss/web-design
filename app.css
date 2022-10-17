@@ -219,6 +219,18 @@ footer {
 	color: #495057;
 }
 
+@media screen and (max-width: 800px) {
+	.container {
+		width: 90%;
+	}
+	.grid-3-cols {
+		display: block;
+	}
+	.testimonial-box h2 {
+		margin: 15px 0;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	header {
 		grid-template-columns: repeat(1, 1fr);
